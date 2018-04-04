@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{EA6AEA22-DE54-4E38-88A8-AA3C7ACA223F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AtCoderTest/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AtCoderTest/ABC08.cs">
     <Files>
-      <File FileName="AtCoderTest/Program.cs" Line="9" Column="25" />
+      <File FileName="AtCoderTest/AtCoderTest.cs" Line="20" Column="1" />
+      <File FileName="AtCoderTest/ABC08.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AtCoderBeginnersSelection PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AtCoderTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
