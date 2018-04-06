@@ -6,25 +6,21 @@ namespace AtCoderTest
     {
         public static void Main(string[] args)
         {
-            int count = 0;
             //int length = 
             int.Parse(Console.ReadLine());
             long[] num = Array.ConvertAll(
                 Console.ReadLine().Split(' '),
                 new Converter<string, long>(s => long.Parse(s) ));
-            count = keisan(num ,count);
-            GC.Collect();
-            Console.WriteLine(count);
-        }
-        public static  int keisan(long[] num,int count){
-            if(num.Sum() %2 ==1 || num.Sum() ==0){
-                return count;
-            }else{
-                count++;
-                num = Array.ConvertAll( num, i => i/2);
-                GC.Collect();
-                return keisan(num, count);
+            int[] count = new int[num.Length];
+            for (int i = 0; i <num.Length;i++){
+                int warucount = 0;
+                while(num[i]%2==0 && num[i]!=0){
+                    warucount++;
+                    num[i] = num[i] / 2;
+                }
+                count[i] = warucount;
             }
+            Console.WriteLine(count.Min());
         }
     }
 }
