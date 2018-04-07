@@ -1,12 +1,12 @@
 ﻿using System;
 namespace AtCoderBeginnersSelection
 {
-    class MainClass
+    class ABC081A
     {
-        //public static void Main(string[] args)
-        //{
-        //    string num = Console.ReadLine();
-        //    Console.WriteLine(num.Length - num.Replace("1","").Length );
-        //}
+        public ABC081A()
+        {
+            string num = Console.ReadLine();
+            Console.WriteLine(num.Length - num.Replace("1","").Length );
+        }
     }
 }

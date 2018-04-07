@@ -4,9 +4,8 @@ namespace AtCoderTest
 {
     public class ABC081B
     {
-        public static void Main(string[] args)
+        public ABC081B()
         {
-            //int length = 
             int.Parse(Console.ReadLine());
             long[] num = Array.ConvertAll(
                 Console.ReadLine().Split(' '),
