@@ -2,12 +2,9 @@
 namespace AtCoderTest
 {
     class ABC083B{
-        //int count = 0;
-        //public ABC083B()
-        public static void Main(string[] args)
+        int count = 0;
+        public ABC083B()
         {
-            int count = 0;
-
             string[] num = Console.ReadLine().Split(' ');
             int a = int.Parse(num[1]);
             int b = int.Parse(num[2]);
@@ -21,11 +18,10 @@ namespace AtCoderTest
                     count += i;
                 }
             }
-            Console.WriteLine(count);
         }
 
-		//public int getAns(){
-        //    return this.count;
-        //}
+        public int getAns(){
+            return this.count;
+        }
     }
 }
