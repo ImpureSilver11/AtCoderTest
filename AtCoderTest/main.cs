@@ -5,7 +5,7 @@ namespace AtCoderTest
     {
         public static void Main(string[] args)
         {
-            ABC083B a = new ABC083B();
+            ABC088B a = new ABC088B();
             Console.WriteLine(a.getAns());
         }
     }
