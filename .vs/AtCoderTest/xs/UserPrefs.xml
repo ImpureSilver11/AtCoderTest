@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{EA6AEA22-DE54-4E38-88A8-AA3C7ACA223F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AtCoderTest/ABC088B.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AtCoderTest/ABC085B.cs">
     <Files>
-      <File FileName="AtCoderTest/main.cs" Line="9" Column="29" />
-      <File FileName="AtCoderTest/ABC088B.cs" Line="12" Column="1" />
-      <File FileName="AtCoderTest/ABC081B.cs" Line="3" Column="1" />
-      <File FileName="AtCoderTest/ABC083B.cs" Line="8" Column="24" />
-      <File FileName="AtCoderTest/ABC087B.cs" Line="1" Column="1" />
-      <File FileName="AtCoderTest/ABC086A.cs" Line="1" Column="1" />
-      <File FileName="AtCoderTest/ABC085B.cs" Line="1" Column="1" />
+      <File FileName="AtCoderTest/main.cs" Line="4" Column="22" />
+      <File FileName="AtCoderTest/ABC085B.cs" Line="6" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.AtCoderBeginnersSelection PreferredExecutionTarget="MonoDevelop.Default" />
