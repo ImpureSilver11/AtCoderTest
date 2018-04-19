@@ -42,6 +42,7 @@
     <Compile Include="ABC083B.cs" />
     <Compile Include="ABC088B.cs" />
     <Compile Include="ABC085B.cs" />
+    <Compile Include="ABC085C.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
