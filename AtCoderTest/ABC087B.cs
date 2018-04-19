@@ -12,6 +12,7 @@ namespace AtCoderTest
             b = int.Parse(Console.ReadLine());
             c = int.Parse(Console.ReadLine());
             s = int.Parse(Console.ReadLine());
+
             for (int i = 0; i <= a;i++){
                 for (int j = 0; j <= b;j++){
                     for (int k = 0; k <= c;k++){

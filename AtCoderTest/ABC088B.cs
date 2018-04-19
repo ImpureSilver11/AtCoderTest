@@ -9,6 +9,7 @@ namespace AtCoderTest
     {
         int ansAlice = 0;
         int ansBob = 0;
+
         public ABC088B()
         {
             int num = int.Parse(Console.ReadLine());

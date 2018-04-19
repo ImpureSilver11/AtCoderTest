@@ -13,6 +13,7 @@ namespace AtCoderTest
                 for (int j = 0; j <= i.ToString().Length-1;j++){
                     sum += int.Parse(i.ToString().Substring(j,1));
                 }
+
                 if (a <= sum && sum <= b)
                 {
                     count += i;

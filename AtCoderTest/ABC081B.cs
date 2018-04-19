@@ -10,6 +10,7 @@ namespace AtCoderTest
             long[] num = Array.ConvertAll(
                 Console.ReadLine().Split(' '),
                 new Converter<string, long>(s => long.Parse(s) ));
+            
             int[] count = new int[num.Length];
             for (int i = 0; i <num.Length;i++){
                 int warucount = 0;

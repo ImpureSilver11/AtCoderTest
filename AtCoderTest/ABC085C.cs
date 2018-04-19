@@ -23,7 +23,6 @@ namespace AtCoderTest
                     {
                         continue;
                     }
-
                     for (int k = 0; k <= maisu;k++){
                         if (i + j + k > maisu ||
                             (i * 10000) + (j * 5000) + (k * 1000) > okane)

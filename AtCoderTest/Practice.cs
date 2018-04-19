@@ -8,6 +8,7 @@ namespace AtCoderBeginnersSelection
         {
             int A, B, C;
             string S;
+
             A = int.Parse(Console.ReadLine());
             string[] bandc = Console.ReadLine().Split(' ');
             B = int.Parse(bandc[0]);

@@ -29,7 +29,6 @@ namespace AtCoderTest
                 teihen = motiList.Max();
                 motiList.RemoveAt(motiList.Count - 1);
             }
-   
         }
 
         public int getAns(){
