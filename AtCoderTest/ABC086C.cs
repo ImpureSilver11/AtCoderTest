@@ -3,7 +3,7 @@ namespace AtCoderTest
 {
     public class ABC086C
     {
-		string ans = "NO";
+		string ans = "No";
         public ABC086C()
         {
 			int n = int.Parse(Console.ReadLine());
@@ -64,9 +64,10 @@ namespace AtCoderTest
 				}
 
 				if( i == n-1){
-					ans = "YES";
+					ans = "Yes";
 				}
-			}   
+			}
+
         }
 
 		public string getAns()
