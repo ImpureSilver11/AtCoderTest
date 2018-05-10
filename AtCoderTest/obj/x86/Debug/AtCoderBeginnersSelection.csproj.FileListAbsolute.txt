@@ -3,3 +3,4 @@
 /Users/takahashimasahiro/Projects/AtCoderTest/AtCoderTest/obj/x86/Debug/AtCoderBeginnersSelection.csproj.CoreCompileInputs.cache
 /Users/takahashimasahiro/Projects/AtCoderTest/AtCoderTest/obj/x86/Debug/AtCoderTest.exe
 /Users/takahashimasahiro/Projects/AtCoderTest/AtCoderTest/obj/x86/Debug/AtCoderTest.pdb
+/Users/takahashimasahiro/Projects/AtCoderTest/AtCoderTest/obj/x86/Debug/AtCoderBeginnersSelection.csprojResolveAssemblyReference.cache

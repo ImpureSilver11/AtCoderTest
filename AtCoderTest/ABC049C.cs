@@ -6,27 +6,32 @@ namespace AtCoderTest
         string ans= "NO";
 
         string dream = "dream";
-        string er = "er";
-        string ase = "ase";
-        string r = "r";
+		string dreamer = "dreamer";
+        string erase = "erase";
+		string eraser = "eraser";
 
         public ABC049C()
         {
             string s = Console.ReadLine();
             string t = "";
-            while(s.Length >t.Length ){
-                if(0 == s.IndexOf(t+dream)){
-                    t += dream;
-                }else if ( 0==s.IndexOf(t+er)){
-                    
-                    t += er; 
-                }else if ( 0 == s.IndexOf(t+ase )){
-                    t += ase;
-                }else if ( 0 == s.IndexOf(t+r )){
-                    t += r;
-                }else{
-                    break;
-                }
+			string ss = s;
+            while(ss.Length != 0){
+				//string moji = ss.Substring(ss.Length -7 , ss.Length);
+			    if (ss.LastIndexOf(erase) == ss.Length - 5 && ss.Length >=5){
+					t = erase + t;
+                    ss = ss.Substring(0, ss.Length - 5);
+				}else if (ss.LastIndexOf(dream) == ss.Length - 5 && ss.Length >= 5){
+                    t = dream + t;
+                    ss = ss.Substring(0, ss.Length - 5);
+				}else if (ss.LastIndexOf(eraser) == ss.Length - 6 && ss.Length >= 6){
+					t = eraser + t;
+                    ss = ss.Substring(0, ss.Length - 6);
+				}else if (ss.LastIndexOf(dreamer) == ss.Length - 7 && ss.Length >= 7){
+					t = dreamer + t;
+					ss = ss.Substring(0, ss.Length - 7);
+				}else {
+					break;				
+				}
             }
             if(s == t){
                 ans = "YES";
