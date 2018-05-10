@@ -16,7 +16,6 @@ namespace AtCoderTest
             string t = "";
 			string ss = s;
             while(ss.Length != 0){
-				//string moji = ss.Substring(ss.Length -7 , ss.Length);
 			    if (ss.LastIndexOf(erase) == ss.Length - 5 && ss.Length >=5){
 					t = erase + t;
                     ss = ss.Substring(0, ss.Length - 5);
