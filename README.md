@@ -1,4 +1,3 @@
 # AtCoderTest
 
-AtCoderのチュートリアルをC#で
-チートシートも兼用
+AtCoder's tutorial is also used as cheat sheet in C #
